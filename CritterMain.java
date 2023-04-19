@@ -12,14 +12,11 @@ public class CritterMain {
         CritterFrame frame = new CritterFrame(60, 40);
 
         // uncomment each of these lines as you complete these classes
-        //frame.add(30, Poro.class);
         frame.add(30, Bear.class);
-        //frame.add(30, SuperBear.class);
         frame.add(30, Lion.class);
         frame.add(30, Giant.class);
         
-        // frame.add(30, Drunkard.class);
-        // frame.add(30, GoldRush.class);
+        frame.add(30, Poro.class);
 
         frame.add(30, FlyTrap.class);
         frame.add(30, Food.class);
